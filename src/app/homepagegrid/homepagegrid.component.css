@@ -1,0 +1,45 @@
+#parent-div {
+   
+     padding: 4px 2px;
+}
+
+#div1 {
+    float: left; /* Commenting this out results in another weird result*/
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+#div2 {
+    width:50%;
+    float: left;
+   display: inline-block;
+    box-sizing: border-box;
+    height: 150px;
+    padding-left: 10px;
+}
+
+#div3 {
+    width: 25%;
+     float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+}
+#div4 {
+    width:25%;
+     float: left;
+    display: inline-block;
+    box-sizing: border-box;
+    height: 150px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+.child-div {
+    overflow: hidden;
+}
