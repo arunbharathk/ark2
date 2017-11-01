@@ -13,7 +13,7 @@ export class SignupComponent {
 
    public modalRef: BsModalRef;
   constructor(private modalService: BsModalService) {}
- 
+
   public openModal(template: TemplateRef<any>) {
     this.modalRef = this.modalService.show(template);
   }

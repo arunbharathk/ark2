@@ -8,7 +8,7 @@ import { CarouselModule } from 'ngx-bootstrap';
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgcarouselComponent } from './ngcarousel/ngcarousel.component';
-import { Homepagesection2Component } from './homepagesection2/homepagesection2.component';
+import { Homepagesection2Component } from './homeCircleImageGrid/homepagesection2.component';
 import { HomepagegridComponent } from './homepagegrid/homepagegrid.component';
 import { HomepageSubscribeComponent } from './homepage-subscribe/homepage-subscribe.component';
 import { FooterComponent } from './footer/footer.component';
@@ -33,7 +33,6 @@ import { BsModalService } from 'ngx-bootstrap/modal';
   imports: [
     CarouselModule.forRoot(),
     BsDropdownModule.forRoot(),
-    
     NgbModule.forRoot(),
     BrowserModule,
     BrowserAnimationsModule

@@ -1,8 +1,13 @@
-.img-main-carousel{
+/* .img-main-carousel{
 	max-height: 800px;
 	margin: 0 auto;
 }
-
-.carousel-control.left, .carousel-control.right{
+ */
+/* .carousel-control.left, .carousel-control.right{
 	cursor: pointer
+}
+ */
+.carousel {
+    position: relative;
+    padding-top: 5px;
 }
